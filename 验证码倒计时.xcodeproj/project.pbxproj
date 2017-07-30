@@ -15,6 +15,7 @@
 		DDC1F1721F2DAD5F00BA4715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC1F1701F2DAD5F00BA4715 /* LaunchScreen.storyboard */; };
 		DDC1F17D1F2DAD5F00BA4715 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC1F17C1F2DAD5F00BA4715 /* ______Tests.m */; };
 		DDC1F1881F2DAD5F00BA4715 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC1F1871F2DAD5F00BA4715 /* ______UITests.m */; };
+		DDC1F1971F2DAD8D00BA4715 /* UIButton+countDown.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC1F1961F2DAD8D00BA4715 /* UIButton+countDown.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DDC1F1831F2DAD5F00BA4715 /* 验证码倒计时UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "验证码倒计时UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC1F1871F2DAD5F00BA4715 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		DDC1F1891F2DAD5F00BA4715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDC1F1951F2DAD8D00BA4715 /* UIButton+countDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+countDown.h"; sourceTree = "<group>"; };
+		DDC1F1961F2DAD8D00BA4715 /* UIButton+countDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+countDown.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				DDC1F1661F2DAD5F00BA4715 /* AppDelegate.m */,
 				DDC1F1681F2DAD5F00BA4715 /* ViewController.h */,
 				DDC1F1691F2DAD5F00BA4715 /* ViewController.m */,
+				DDC1F1951F2DAD8D00BA4715 /* UIButton+countDown.h */,
+				DDC1F1961F2DAD8D00BA4715 /* UIButton+countDown.m */,
 				DDC1F16B1F2DAD5F00BA4715 /* Main.storyboard */,
 				DDC1F16E1F2DAD5F00BA4715 /* Assets.xcassets */,
 				DDC1F1701F2DAD5F00BA4715 /* LaunchScreen.storyboard */,
@@ -207,6 +212,7 @@
 				TargetAttributes = {
 					DDC1F15E1F2DAD5F00BA4715 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = B7UQ7WHB5T;
 						ProvisioningStyle = Automatic;
 					};
 					DDC1F1771F2DAD5F00BA4715 = {
@@ -274,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDC1F16A1F2DAD5F00BA4715 /* ViewController.m in Sources */,
+				DDC1F1971F2DAD8D00BA4715 /* UIButton+countDown.m in Sources */,
 				DDC1F1671F2DAD5F00BA4715 /* AppDelegate.m in Sources */,
 				DDC1F1641F2DAD5F00BA4715 /* main.m in Sources */,
 			);
@@ -424,7 +431,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B7UQ7WHB5T;
 				INFOPLIST_FILE = "验证码倒计时/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MiaoJH.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +444,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B7UQ7WHB5T;
 				INFOPLIST_FILE = "验证码倒计时/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MiaoJH.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
